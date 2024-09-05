@@ -7,7 +7,7 @@ public final class Charity extends JavaPlugin {
     @Override
     public void onEnable() {
         // Plugin startup logic
-   // Testsaa
+   // Testsaas
     }
 
     @Override
