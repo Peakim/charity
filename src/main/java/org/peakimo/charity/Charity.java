@@ -38,11 +38,11 @@ public final class Charity extends JavaPlugin {
             this.setupPermissions();
             this.setupChat();
 
-            //Events
+            // Events
             this.getServer().getPluginManager().registerEvents(new givecharity(), this);
             this.getServer().getPluginManager().registerEvents(new clickGUI(), this);
             this.getServer().getPluginManager().registerEvents(new FreezeGUI(), this);
-            //Commands
+            // Commands
             this.getCommand("charity-reload").setExecutor(new reload());
         }
     }
