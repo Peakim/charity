@@ -38,7 +38,7 @@ public final class Charity extends JavaPlugin {
             this.setupPermissions();
             this.setupChat();
 
-            // Events
+            // Event
             this.getServer().getPluginManager().registerEvents(new givecharity(), this);
             this.getServer().getPluginManager().registerEvents(new clickGUI(), this);
             this.getServer().getPluginManager().registerEvents(new FreezeGUI(), this);
